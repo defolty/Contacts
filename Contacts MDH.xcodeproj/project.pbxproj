@@ -13,6 +13,7 @@
 		FBC0637B26CC3CD300E88E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC0637926CC3CD300E88E38 /* Main.storyboard */; };
 		FBC0637D26CC3CD400E88E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC0637C26CC3CD400E88E38 /* Assets.xcassets */; };
 		FBC0638026CC3CD400E88E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC0637E26CC3CD400E88E38 /* LaunchScreen.storyboard */; };
+		FBC0638826CC3D7100E88E38 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0638726CC3D7100E88E38 /* ContactTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FBC0637C26CC3CD400E88E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC0637F26CC3CD400E88E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC0638126CC3CD400E88E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC0638726CC3D7100E88E38 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		FBC0637226CC3CD300E88E38 /* Contacts MDH */ = {
 			isa = PBXGroup;
 			children = (
+				FBC0638126CC3CD400E88E38 /* Info.plist */,
 				FBC0637326CC3CD300E88E38 /* AppDelegate.swift */,
 				FBC0637526CC3CD300E88E38 /* SceneDelegate.swift */,
 				FBC0637726CC3CD300E88E38 /* ViewController.swift */,
+				FBC0638726CC3D7100E88E38 /* ContactTableViewCell.swift */,
+				FBC063B126CC4FF800E88E38 /* View */,
+			);
+			path = "Contacts MDH";
+			sourceTree = "<group>";
+		};
+		FBC063B126CC4FF800E88E38 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				FBC0637926CC3CD300E88E38 /* Main.storyboard */,
 				FBC0637C26CC3CD400E88E38 /* Assets.xcassets */,
 				FBC0637E26CC3CD400E88E38 /* LaunchScreen.storyboard */,
-				FBC0638126CC3CD400E88E38 /* Info.plist */,
 			);
-			path = "Contacts MDH";
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC0638826CC3D7100E88E38 /* ContactTableViewCell.swift in Sources */,
 				FBC0637826CC3CD300E88E38 /* ViewController.swift in Sources */,
 				FBC0637426CC3CD300E88E38 /* AppDelegate.swift in Sources */,
 				FBC0637626CC3CD300E88E38 /* SceneDelegate.swift in Sources */,
